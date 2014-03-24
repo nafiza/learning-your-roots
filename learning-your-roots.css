@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face
+{
+    font-family: Garamond, Trebuchet, Helvetica;
+}
+
+body
+{
+	font-family: Trebuchet, Calibri, Cambria, Helvetica, Garamond;
+	font-size: 12pt;
+	background-color: white;
+	color: black;
+	background-image: url(img/tree-transparent.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	max-width: 1000px;
+	max-height: 800px;
+	background-position: 0 auto;
+}
+
+h1, h2
+{
+	text-align: center;
+	text-transform: uppercase;
+	font-family: Garamond;
+}
+
+h1,h2,h3
+{
+	padding: 10px;
+}
+
+h1
+{
+	font-size: 270%;
+	color: white;
+	background-color: #8B4C39;
+	text-shadow: -1px -1px white;
+}
+
+h2
+{
+	font-size: 250%;
+}
+
+h3
+{
+	font size: 200%;
+	text-align: center;
+	font-family: Garamond;
+}
+
+h4
+{
+	font size: 150%;
+	text-align: left;
+	text-transform: uppercase;
+	font-family: Garamond;
+	padding: 5px;
+}
+
+#content
+{
+	margin: 275px 0px 0px 290px; /*top right bottom left*/
+	background-color: rgba(255, 255, 255, .5);
+	padding: 2px;
+}
