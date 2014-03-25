@@ -12,14 +12,15 @@ body
 	font-size: 12pt;
 	background-color: white;
 	color: black;
-	background-image: url(img/tree-transparent.png);
+	background: url(img/tree-transparent.png) no-repeat center top;
 	background-repeat: no-repeat;
 	max-width: 1000px;
 	max-height: 800px;
-	margin: 0px auto;
+	margin-left:auto;
+	margin-right:auto;
 }
 
-h1, h2, h3
+h1, h2, h3, footer
 {
 	text-align: center;
 	text-transform: uppercase;
@@ -30,6 +31,18 @@ h1, h3
 {
 	color: white;
 	background-image: url(img/wood-bck.png);
+}
+
+footer
+{
+	font-size: 120%;
+	background-image: url(img/wood-bck.png);
+}
+
+a:link, a:visited
+{
+	color: white;
+	font-weight: bold;
 }
 
 h1
